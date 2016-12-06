@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="text-center">Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col width-100><img src="assets/img/EOH_logo.jpg"/></ion-col>
+      </ion-row>
+    </ion-grid> 
+
+    <ion-list>
+
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" value=""></ion-input>
+      </ion-item>
+
+    <div padding>
+      <button ion-button color="primary" clear block (click)="login();">Log In</button>
+    </div>
+
+    </ion-list>
+
+
+  
+</ion-content>

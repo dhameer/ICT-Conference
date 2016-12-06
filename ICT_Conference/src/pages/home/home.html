@@ -1,0 +1,43 @@
+<ion-header class="text-center">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card-header>
+    Card Header
+  </ion-card-header>
+
+  <ion-card-content>
+     Add card content here! 
+  </ion-card-content>
+
+  <ion-list>
+    <button ion-item class="item-border" (click)="gotoSearch();">
+      <ion-icon name="md-search" item-left></ion-icon>
+      Quick Search
+    </button>
+
+    <button ion-item class="item-border">
+      <ion-icon name="md-document" item-left></ion-icon>
+      Advanced Search
+    </button>
+
+    <button ion-item class="item-border">
+      <ion-icon name="md-funnel" item-left></ion-icon>
+      Document Library
+    </button>
+
+    <button ion-item class="item-border">
+      <ion-icon name="md-bookmark" item-left></ion-icon>
+      Bookmark
+    </button>
+  </ion-list>
+ 
+  
+</ion-content>
